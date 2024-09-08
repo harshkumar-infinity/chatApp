@@ -1,0 +1,169 @@
+.searchbox::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media screen and (max-width: 1400px) {
+  .dataTable thead tr th {
+    padding: 10px 10px 10px 0;
+    color: #000;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .dataTable tbody tr:not(:last-child) {
+    border-bottom: 1px solid #e9ecf1;
+  }
+
+  .dataTable tbody tr td {
+    padding: 10px 10px 10px 0;
+    font-size: 12px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 30px;
+  }
+}
+
+.rows {
+  font-weight: 300 !important;
+}
+
+.custom-header {
+  padding: 18px 12px;
+  font-weight: 500;
+  border-bottom: 2px solid #d2d8dd;
+}
+
+.custom-body {
+  padding: 8px 12px;
+  font-weight: 400;
+  border-bottom: 1px dashed #d2d8dd;
+}
+
+.p-paginator {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+.p-paginator-pages {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.p-paginator-page {
+  padding: 8px 15px;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  width: 36px;
+  color: #c4c4c4;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c4c4c4;
+}
+
+.p-paginator-prev {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  font-size: 16px;
+  color: #0147ff;
+  font-weight: 600;
+  padding: 8px 10px;
+  line-height: 19px;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0147ff;
+}
+
+.p-paginator-next {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  font-size: 16px;
+  color: #0147ff;
+  font-weight: 600;
+  padding: 8px 10px;
+  line-height: 19px;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0147ff;
+}
+
+.p-paginator-first {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  font-size: 16px;
+  color: #0147ff;
+  font-weight: 600;
+  padding: 8px 10px;
+  line-height: 19px;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0147ff;
+}
+
+.p-paginator-last {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  font-size: 16px;
+  color: #0147ff;
+  font-weight: 600;
+  padding: 8px 10px;
+  line-height: 19px;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0147ff;
+}
+
+.p-paginator-page.p-disabled,
+.p-paginator-prev.p-disabled,
+.p-paginator-next.p-disabled,
+.p-paginator-first.p-disabled,
+.p-paginator-last.p-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.p-paginator-page.p-highlight,
+.p-paginator-prev.p-highlight,
+.p-paginator-next.p-highlight,
+.p-paginator-first.p-highlight,
+.p-paginator-last.p-highlight {
+  background-color: #0147ff;
+  color: #fff;
+  border: #0147ff;
+}
+
+.p-datatable-emptymessage td {
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .custom-header {
+    padding: 18px 8px;
+    font-weight: 500;
+    border-bottom: 2px solid #d2d8dd;
+  }
+
+  .custom-body {
+    padding: 16px 8px;
+    font-weight: 300;
+    border-bottom: 1px dashed #d2d8dd;
+  }
+}
